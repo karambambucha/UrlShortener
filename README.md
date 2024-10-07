@@ -1,38 +1,35 @@
-# Expense Tracker API 
+# URL Shortner API 
+https://roadmap.sh/projects/url-shortening-service
 ## Обзор
-Expense Tracker API - приложение ASP.NET Core, позволяющее пользователям управлять своими расходами. Оно обеспечивает безопасную аутентификацию пользователей и CRUD-операции для отслеживания расходов.
+URL Shortner API - API, позволяющее пользователям сокращать URL. Оно обеспечивает CRUD-операции для управления короткими ссылками.
 ## Фичи
-* Регистрация и аутентификация пользователей с помощью JWT-токенов
-* Создание, чтение, обновление и удаление расходов
-* Фильтр расходов по временным периодам (прошлая неделя, прошлый месяц, последние 3 месяца)
+* Создание, чтение, обновление и удаление коротких ссылок.
+* Отслеживание количества доступа к ссылке
 * Интеграция с базой данных PostgreSQL
 
 ## Технологии
 * ASP.NET Core 7.0
 * Entity Framework Core
 * PostgreSQL
-* JWT
 
 ## Требования
-* NET 7.0 SDK
+* NET 7.0+ SDK
 * PostreSQL Server
 
 # English
 
 ## Overview
-Expense Tracker API is an ASP.NET Core application that allows users to manage their expenses. It provides secure user authentication and CRUD operations to track expenses.
+URL Shortner API is an API that allows users to shorten URLs. It provides CRUD operations to manage short URLs.
 ## Features
-* User registration and authentication with JWT tokens
-* Create, read, update and delete expenses
-* Filter expenses by time periods (last week, last month, last 3 months)
+* Create, read, update and delete short URLs
+* Tracking the number of accesses to a short URL
 * Integration with PostgreSQL database
 
 ## Technologies
 * ASP.NET Core 7.0
 * Entity Framework Core
 * PostgreSQL
-* JWT
 
 ## Requirements
-* NET 7.0 SDK
+* NET 7.0+ SDK
 * PostreSQL Server
